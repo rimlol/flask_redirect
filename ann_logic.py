@@ -35,15 +35,15 @@ def find_spec(urla):
 
         redirects_2_leads = {
 
-            'prog_diz': 'https://ai.geekbrains.ru/prog_diz?',
-            'prog_manage':'https://ai.geekbrains.ru/prog_manage?',
-            'prog_mark': 'https://ai.geekbrains.ru/prog_mark?',
-            'manage_diz': 'https://ai.geekbrains.ru/manage_diz?',
-            'manage_mark': 'https://ai.geekbrains.ru/manage_mark?',
-            'diz_mark': 'https://ai.geekbrains.ru/diz_mark?'
+            'prog_diz': 'https://ai.geekbrains.ru/programming?prog_diz?',
+            'prog_manage':'https://ai.geekbrains.ru/programming?prog_manage?',
+            'prog_mark': 'https://ai.geekbrains.ru/programming?prog_mark?',
+            'manage_diz': 'https://ai.geekbrains.ru/programming?manage_diz?',
+            'manage_mark': 'https://ai.geekbrains.ru/programming?manage_mark?',
+            'diz_mark': 'https://ai.geekbrains.ru/programming?diz_mark?'
         }
 
-        redirects_3_leads = "https://special.page/"
+        redirects_3_leads = "https://ai.geekbrains.ru/programming?special?"
 
 
 
