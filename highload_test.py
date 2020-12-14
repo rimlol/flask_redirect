@@ -6,9 +6,9 @@ from urllib import request
 import random
 
 
-attempts = 10
+attempts = 100
 
-pause = 0.5
+pause = 0.01
 test_data =  [
     '?result=00000010',
     '?result=09010000',
@@ -21,10 +21,10 @@ test_data =  [
 result_data = [
     'https://ai.geekbrains.ru/marketing?from_test_with_loveprog=00&manage=00&diz=00&mark=10',
     'https://ai.geekbrains.ru/programming?prog=09&manage=01&diz=00&mark=00',
-    'https://special.page/prog=03&manage=03&diz=03&mark=01',
-    'https://ai.geekbrains.ru/prog_diz?prog=05&manage=00&diz=05&mark=00',
-    'https://ai.geekbrains.ru/prog_manage?prog=06&manage=04&diz=00&mark=00',
-    'https://ai.geekbrains.ru/prog_manage?prog=04&manage=04&diz=02&mark=00',
+    'https://ai.geekbrains.ru/programming?prog=03&manage=03&diz=03&mark=01',
+    'https://ai.geekbrains.ru/programming?prog_diz?prog=05&manage=00&diz=05&mark=00',
+    'https://ai.geekbrains.ru/programming?prog_manage?prog=06&manage=04&diz=00&mark=00',
+    'https://ai.geekbrains.ru/programming?prog_manage?prog=04&manage=04&diz=02&mark=00',
     'https://ai.geekbrains.ru/programming?prog=06&manage=03&diz=00&mark=01'
 
 
